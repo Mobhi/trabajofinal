@@ -1,0 +1,60 @@
+body{background-color: #333;}
+.indice{background-color: rgb(255, 255, 255);
+        width: 90%;
+        margin-left: 5%;
+        height: 7em;
+        margin-top: 1em
+        ;
+        }
+.indice2{background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 99.9%;;
+    height: 200em;
+    margin-top: 1em;
+    
+    }
+.anuncio{background-color: rgb(255, 255, 255);
+    margin-top: 15mm;
+    justify-content: center;
+    display: flex-start;
+    width: 24.5%;
+    float: left;
+    height: auto;
+    }
+.contenido{background-color:rgb(255, 255, 255) ;
+    display: flex-start;
+    width: 95%;
+    float: right;
+    height: auto;
+    border-left:rgb(218, 218, 218) 1mm solid;}
+.barrita{display: flex-start;
+    width: 99%;
+    height: 3em}
+.redes{display:flex-start;
+    padding: 1mm;
+    width: 44.4%;
+    float:left;
+    height: 5%}
+.paises{display:flex-start;
+        margin: 2mm;
+        width: 44.4%;
+        float:left;
+        height: 5%;
+        }
+.tablas{display: flex;
+    width:95%;
+
+        float:inline-start;
+        }
+.tabla1{display: flex;
+        width: 25%;
+        overflow: center;
+        background-color: #990000;
+        float: auto;
+        padding: 1mm}
+.tabla2{display: flex;
+    width: 25%;
+    border:darkgrey;
+    background-color: #006600;;
+    padding: 1mm;
+    float: auto;}

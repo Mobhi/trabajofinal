@@ -1,0 +1,22 @@
+
+body{background-image: url(../img/imag2.png);
+     background-repeat: no-repeat;
+     background-color: black;}
+.Titulo{text-align: center;font-size: 5em; color:chartreuse;}
+.caja{
+      text-align: center;
+      background-color: darkgreen;
+      width: 4.5em; height: 4.5em; 
+      padding: 0.8%;
+      border-top:rgb(255, 255, 255) 5px solid ;
+      border-bottom:lightseagreen 5px solid;
+      border-right:fuchsia 5px solid;
+      border-left:gold 5px solid;
+      font-size: 4em;
+      color:floralwhite;}   
+.letra{font-size: 3em; font-family: cursive; color:coral} 
+.for1{font-style: italic; color:cornsilk; font-size: 3em;}
+.for2{text-decoration: underline;color:darkorange; font-size: 3em; }
+.for3{text-decoration:line-through;color:cadetblue; font-size:3em;}
+.emoji1{font-size: 4em;}
+.imag1{width: 30%; height: 30%;}

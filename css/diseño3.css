@@ -1,0 +1,8 @@
+body{background-color: slategrey;}
+h1{background-color: gold;}
+.primero{font-size: 5em;
+          background-color: tomato;}
+.segundo{font-size: 3.5em;
+         background-color: teal;}
+.primeracaja{width: 20em; height: 20em;
+             font-size: 2em; background-color:rgb(130, 255, 151) ;}

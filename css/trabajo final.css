@@ -1,0 +1,57 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+</style>
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(255, 27, 152);
+}
+.full-viewport-container{
+    padding: 2em;
+    width: 100%;
+    height: 100vh;
+    background-color: #9a3d3d;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.first-cover{
+    background-image: url(../img/portada\ 2.jpg);
+    background-size: cover;
+}
+.text-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.text-box__text{
+    width: 100%;
+    padding: 1em;
+    font-size: 3rem;
+    color:white;
+    background-color: rgba(239,42,87,255);
+    border: solid 2px white;
+    text-transform: uppercase;
+    font-family: 'Patrick Hand', cursive;
+}
+.final{
+    background-color: crimson;
+    padding: 2em;
+    width: 100%;
+    height: 50;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.text-container2{
+    padding-left: 2em;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    display: flexbox;
+    align-items: center;
+}
+}

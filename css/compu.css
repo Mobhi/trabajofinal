@@ -1,0 +1,100 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+</style>
+.main-menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 1em 0.5em 1em;
+    align-content: space-between;
+    align-items: center;
+}
+.main-menu{
+    display: flex;
+}
+.main-menu-btn{
+    height: auto;
+    background-color: rgb(255, 27, 152);
+}
+.logo{
+    border-radius: 1em;
+    width: 90%;
+    height: auto;
+    display: flexbox;
+    align-items: center;
+
+    
+}
+.text-container{
+
+    padding-left: 2em;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    display: flexbox;
+
+
+}
+.miicon{font-size: 4rem}
+.fa-angry{
+    color:white;
+    border-radius: 1px, rgb(255, 27, 152);
+    font-size: 3rem;
+}
+
+.main-menu{
+    background-color: rgb(255, 27, 152);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.logo{
+    width: 5rem;}
+.menu-btn{
+    border-radius: 10px;
+    background-color: rgb(255, 27, 152);}
+.menu-items{
+    position: fixed;
+    width: 50%;
+    background-color: black;
+    height: 100vh;
+    top: 5%;
+    right: 0px;
+    transform: translateX(100%);
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-top: 2em;}
+.menu-items li {
+        list-style: none;
+    }
+.menu-items li a{ text-decoration: none;}
+.active{
+    transform: translateX(0%);
+}
+
+@media screen and (min-width: 1200px) {
+    .card-container{
+        flex-direction: column;
+    }
+    .menu-items{
+        border-radius: 4em;
+        position:relative;
+        padding-top: 1em;
+        width: auto;
+        height: auto;
+        background-color: white;
+        display: flex;
+        width: 40%;
+        justify-content: space-around;}
+    .menu-btn{ display: none;
+    }
+    .text-container{
+        align-items: center;
+        text-align:right;
+        justify-content: space-around;
+        border: 5px solid black;
+    }
+
+    .image-interactive{
+        flex-direction: column;
+    }
+}

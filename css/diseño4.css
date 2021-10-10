@@ -1,0 +1,10 @@
+body{background-color: black;}
+.caja{width: 50% ;
+           height: 200px; 
+           background-color: coral;}
+           
+.caja-hijo{
+           background-color:crimson ;
+           width: 50%;
+           height: 100px;
+           padding left: 30px;}

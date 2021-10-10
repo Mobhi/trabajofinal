@@ -1,0 +1,65 @@
+.barra{ 
+    display: flex;
+        width: auto;
+        height: 5em;
+        border:darkslategray 1mm solid;
+        float:left;
+        flex: auto;
+}
+.base{
+    background-color: white;
+    display: flex;
+    width: auto;
+    float: left;
+    margin: 3mm;
+    padding-left: 1mm;
+
+}
+.cajavacia{display: flex;;
+    width: 20em;
+    float: center;}
+
+.derecha{
+    display:flex;
+    width:auto;
+    margin-inline-start: 5em;
+}
+.izquierda{
+    display:flex;
+    width:auto;
+    margin-inline-end: 5em;
+    float:right;
+}
+.base2{
+    background-color: white;
+    display: flex;
+    float: right;
+    width: 100%;
+    margin: 3mm;
+    padding-left: 1mm;
+}
+.izquierda2{
+    float:right;
+    padding-right: 1mm;
+}
+.izquierda3{
+    display: flex;
+    padding-right: 3mm;
+    margin-right: 3mm;
+    float: right;
+    border-right: gray 1mm solid;
+}
+.subir{
+    float:right;
+        margin-right: 5mm;}
+.buscador{background-image: url(../img/bnha.png);
+    border-left: 3mm;
+}
+.imagenes{
+    float: center;
+    padding-left: 3em;
+    margin: 2mm;
+}
+.bienvenida{font-family: serif
+    ;text-align: center;
+    text-align: center}
